@@ -62,11 +62,10 @@ body {
 
 @font-face {  //指定字体，并指定哪里可以找到它的URL
   font-family: 'vux-demo';  /* project id 70323 */
-  src: url('//at.alicdn.com/t/font_70323_wlronpvr565yiudi.eot');
-  src: url('//at.alicdn.com/t/font_70323_wlronpvr565yiudi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_70323_wlronpvr565yiudi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_70323_wlronpvr565yiudi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_70323_wlronpvr565yiudi.svg#iconfont') format('svg');
+  //src: url('http://at.alicdn.com/t/font_70323_wlronpvr565yiudi.eot');
+  src:
+  url('./assets/font.ttf') format('truetype'),
+  //url('http://at.alicdn.com/t/font_70323_wlronpvr565yiudi.svg#iconfont') format('svg');
 }
 
 .demo-icon-22 {
